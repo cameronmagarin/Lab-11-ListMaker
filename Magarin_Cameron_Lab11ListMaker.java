@@ -41,7 +41,7 @@ public class Magarin_Cameron_Lab11ListMaker {
     }
     private static void displayList()
     {
-        System.out.println("");
+        System.out.println("");//creates space between menu options and the list
         if(list.size() != 0)
         {
          for(int i = 0; i < list.size(); i++)
@@ -53,6 +53,6 @@ public class Magarin_Cameron_Lab11ListMaker {
         {
             System.out.println("***    list is empty!    ***");
         }
-        System.out.println("");
+        System.out.println("");//creates space between menu options and the list
     }
 }
