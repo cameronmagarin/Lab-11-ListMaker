@@ -31,6 +31,7 @@ public class Magarin_Cameron_Lab11ListMaker {
                 displayList();
                     break;
                 case"Q":
+                    System.out.println("Goodbye!!");
                     System.exit(0);
                     break;
             }
